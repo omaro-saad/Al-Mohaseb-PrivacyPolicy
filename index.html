@@ -3,56 +3,596 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="سياسة الخصوصية لتطبيق المحاسب">
+  <meta name="description" content="سياسة الخصوصية لتطبيق المحاسب — كيفية جمع البيانات واستخدامها وتخزينها ومزامنتها وحمايتها.">
   <title>سياسة الخصوصية - المحاسب</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
-    :root{--p:#2563eb;--pd:#1e3a8a;--pl:#3b82f6;--bg:#f0f4f8;--txt:#0f172a;--muted:#475569;--soft:#5b7099;--line:#dbe7f6;--card:rgba(255,255,255,.88)}
-    *{box-sizing:border-box}html{scroll-behavior:smooth}body{min-height:100vh;margin:0;color:var(--txt);background:var(--bg);font-family:Tajawal,"Noto Sans Arabic","Segoe UI",Tahoma,Arial,sans-serif;line-height:1.85}body[data-lang=en]{font-family:Inter,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.7}button,a{font:inherit}.bg{position:fixed;inset:0;z-index:-2;overflow:hidden;background:linear-gradient(135deg,#f5f8ff 0%,#edf3ff 52%,#f0f4f8 100%)}.bg:before,.bg:after{content:"";position:absolute;border-radius:999px;animation:glow 18s ease-in-out infinite alternate}.bg:before{width:min(42vw,430px);height:min(42vw,430px);top:-110px;right:-120px;background:rgba(37,99,235,.07)}.bg:after{width:min(36vw,360px);height:min(36vw,360px);left:-90px;bottom:-85px;background:rgba(124,58,237,.055);animation-delay:-5s}.shape{position:absolute;display:block;opacity:.55;animation:float var(--d,32s) ease-in-out infinite,spin var(--s,48s) linear infinite;animation-delay:var(--delay,0s)}.ring{width:var(--z);height:var(--z);border:1.5px solid rgba(37,99,235,.16);border-radius:999px}.ring:after{content:"";position:absolute;inset:22%;border:1px solid rgba(59,130,246,.18);border-radius:inherit}.cube{width:var(--z);height:var(--z);border:1px solid rgba(37,99,235,.15);border-radius:6px;background:linear-gradient(135deg,rgba(255,255,255,.28) 0 50%,rgba(59,130,246,.10) 50%)}.block{width:var(--z);height:calc(var(--z)*.62);border:1px solid rgba(37,99,235,.16);border-radius:8px;background:rgba(255,255,255,.17)}.dot{width:var(--z);height:var(--z);border-radius:999px;background:rgba(37,99,235,.20);box-shadow:inset 0 0 0 calc(var(--z)*.28) rgba(255,255,255,.70)}.cross{width:var(--z);height:var(--z)}.cross:before,.cross:after{content:"";position:absolute;inset-inline:0;top:50%;height:2px;border-radius:999px;background:rgba(37,99,235,.14)}.cross:after{transform:rotate(90deg)}.page{width:min(100%,980px);margin:auto;padding:34px 18px 48px}.top{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:18px}.brand{display:flex;align-items:center;gap:12px}.mark{display:grid;place-items:center;width:44px;height:44px;color:white;font-size:23px;font-weight:800;border-radius:13px;background:linear-gradient(135deg,var(--p),var(--pl));box-shadow:0 14px 30px rgba(37,99,235,.22)}h1{margin:0;color:var(--pd);font-size:clamp(1.55rem,4vw,2.2rem);line-height:1.15}.sub{margin:2px 0 0;color:var(--soft);font-size:.95rem}.lang{display:inline-flex;gap:4px;padding:4px;border:1px solid rgba(37,99,235,.16);border-radius:999px;background:rgba(255,255,255,.66);box-shadow:0 10px 28px rgba(15,23,42,.06);backdrop-filter:blur(14px)}.lang button{min-width:78px;padding:8px 13px;color:var(--muted);cursor:pointer;border:0;border-radius:999px;background:transparent}.lang button[aria-pressed=true]{color:white;background:var(--p);box-shadow:0 8px 18px rgba(37,99,235,.20)}.hero,.policy{border:1px solid rgba(209,227,255,.82);border-radius:18px;background:rgba(255,255,255,.62);backdrop-filter:blur(18px)}.hero{margin-bottom:18px;padding:22px clamp(18px,4vw,32px);box-shadow:0 16px 44px rgba(37,99,235,.07)}.hero h2{margin:0;color:var(--pd);font-size:clamp(1.35rem,3vw,1.9rem);line-height:1.35}.hero p{max-width:760px;margin:8px 0 0;color:var(--muted)}.bar{position:relative;width:min(220px,62vw);height:6px;margin-top:18px;overflow:hidden;border-radius:999px;background:rgba(37,99,235,.12)}.bar:before{content:"";position:absolute;inset-block:0;inset-inline-start:0;width:72%;border-radius:inherit;background:linear-gradient(90deg,var(--p),var(--pl));box-shadow:0 2px 12px rgba(37,99,235,.30);animation:load 2.6s ease-in-out infinite alternate}.bar:after{content:"";position:absolute;inset-block:0;width:42%;border-radius:inherit;background:linear-gradient(90deg,transparent,rgba(255,255,255,.66),transparent);animation:shine 1.5s linear infinite}.policy{overflow:hidden;border-color:rgba(226,232,240,.92);background:var(--card);box-shadow:0 24px 70px rgba(15,23,42,.10)}.inner{padding:clamp(22px,5vw,42px)}.date{display:inline-flex;margin-bottom:18px;padding:6px 12px;color:var(--pd);border:1px solid rgba(37,99,235,.12);border-radius:999px;background:#eff6ff;font-size:.92rem;font-weight:700}.sec{padding:18px 0;border-top:1px solid rgba(226,232,240,.9)}.sec:first-of-type{border-top:0;padding-top:0}.sec h3{margin:0 0 8px;color:var(--pd);font-size:clamp(1.05rem,2vw,1.22rem)}.sec p{margin:8px 0 0}.sec ul{margin:8px 0 0;padding:0 1.2em 0 0}body[data-lang=en] .sec ul{padding:0 0 0 1.2em}.sec li{margin:6px 0}.contact{display:inline-flex;margin-top:10px;color:var(--p);font-weight:800;text-decoration:none;overflow-wrap:anywhere}.foot{margin:18px 0 0;color:var(--soft);text-align:center;font-size:.92rem}[hidden]{display:none!important}@keyframes float{0%,100%{translate:0 0}50%{translate:var(--x,18px) var(--y,-16px)}}@keyframes spin{to{rotate:360deg}}@keyframes glow{to{transform:translate3d(22px,18px,0) scale(1.04)}}@keyframes load{from{width:44%}to{width:86%}}@keyframes shine{from{inset-inline-start:-48%}to{inset-inline-start:110%}}@media(max-width:700px){.page{padding:22px 12px 34px}.top{align-items:flex-start;flex-direction:column}.lang{width:100%}.lang button{flex:1}.hero,.policy{border-radius:14px}}@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}@media print{.bg,.lang,.bar{display:none}.page{width:100%;padding:0}.hero,.policy{border:0;box-shadow:none;background:white}}
+    :root {
+      --text: #1a2332;
+      --muted: #4a5568;
+      --border: #e2e8f0;
+      --bg: #f7f8fa;
+      --surface: #ffffff;
+      --accent: #1e3a5f;
+      --link: #1d4f91;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: auto;
+    }
+
+    body {
+      margin: 0;
+      color: var(--text);
+      background: var(--bg);
+      font-family: "IBM Plex Sans Arabic", "Noto Sans Arabic", Tahoma, sans-serif;
+      font-size: 1.05rem;
+      font-weight: 400;
+      line-height: 1.9;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a {
+      color: var(--link);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    .page {
+      width: min(100%, 780px);
+      margin: 0 auto;
+      padding: 40px 20px 64px;
+    }
+
+    header {
+      margin-bottom: 28px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .brand {
+      margin: 0 0 4px;
+      color: var(--accent);
+      font-size: 0.95rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      color: var(--accent);
+      font-size: clamp(1.55rem, 4vw, 1.95rem);
+      font-weight: 700;
+      line-height: 1.35;
+    }
+
+    .intro {
+      margin: 0;
+      color: var(--muted);
+      font-size: 1.02rem;
+    }
+
+    .updated {
+      display: inline-block;
+      margin: 18px 0 0;
+      color: var(--muted);
+      font-size: 0.92rem;
+      font-weight: 500;
+    }
+
+    article {
+      padding: 8px 0 0;
+      background: transparent;
+    }
+
+    section {
+      margin: 0;
+      padding: 22px 0;
+      border-top: 1px solid var(--border);
+    }
+
+    section:first-of-type {
+      border-top: 0;
+      padding-top: 8px;
+    }
+
+    h2 {
+      margin: 0 0 10px;
+      color: var(--accent);
+      font-size: 1.12rem;
+      font-weight: 700;
+      line-height: 1.45;
+    }
+
+    p {
+      margin: 0 0 10px;
+      color: var(--text);
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    ul {
+      margin: 8px 0 0;
+      padding: 0 1.25em 0 0;
+      color: var(--text);
+    }
+
+    li {
+      margin: 5px 0;
+    }
+
+    .contact-block {
+      margin-top: 8px;
+    }
+
+    .contact-block a {
+      font-weight: 600;
+      overflow-wrap: anywhere;
+    }
+
+    footer {
+      margin-top: 36px;
+      padding-top: 18px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      text-align: center;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      .page {
+        padding: 28px 16px 48px;
+      }
+
+      body {
+        font-size: 1rem;
+      }
+    }
+
+    @media print {
+      body {
+        background: #fff;
+      }
+
+      .page {
+        width: 100%;
+        padding: 0;
+      }
+    }
   </style>
 </head>
-<body data-lang="ar">
-  <div class="bg" aria-hidden="true"><span class="shape ring" style="--z:90px;--delay:-3s;--x:-18px;--y:14px;top:8%;right:9%"></span><span class="shape ring" style="--z:70px;--delay:-11s;--x:22px;--y:-16px;bottom:11%;left:12%"></span><span class="shape cube" style="--z:48px;--delay:-7s;--x:16px;--y:20px;top:14%;left:10%"></span><span class="shape cube" style="--z:36px;--delay:-15s;--x:-15px;--y:-14px;top:70%;right:13%"></span><span class="shape block" style="--z:46px;--delay:-6s;--x:-20px;--y:12px;top:21%;right:28%"></span><span class="shape block" style="--z:54px;--delay:-19s;--x:18px;--y:-18px;top:55%;left:4%"></span><span class="shape dot" style="--z:17px;--delay:-9s;--x:24px;--y:10px;top:8%;left:35%"></span><span class="shape dot" style="--z:20px;--delay:-13s;--x:-18px;--y:-20px;bottom:7%;right:39%"></span><span class="shape cross" style="--z:34px;--delay:-5s;--x:15px;--y:-16px;top:64%;left:49%"></span></div>
+<body>
   <main class="page">
-    <header class="top"><div class="brand"><div class="mark" aria-hidden="true">م</div><div><h1 data-i18n="brand">المحاسب</h1><p class="sub" data-i18n="subtitle">سياسة الخصوصية وحقوق الاستخدام</p></div></div><div class="lang" aria-label="Language"><button type="button" data-lang-button="ar" aria-pressed="true">العربية</button><button type="button" data-lang-button="en" aria-pressed="false">English</button></div></header>
-    <section class="hero"><h2 data-i18n="title">سياسة الخصوصية لتطبيق المحاسب</h2><p data-i18n="intro">نوضح هنا بشكل مباشر وبسيط كيف يتعامل تطبيق المحاسب مع بياناتك، وما هي حقوق الملكية الخاصة بالتطبيق، وكيف يمكنك التواصل معنا.</p><div class="bar" aria-hidden="true"></div></section>
-    <section class="policy"><div class="inner">
-      <article id="ar"><span class="date">آخر تحديث: 3 تموز/يوليو 2026</span>
-        <section class="sec"><h3>1) عن التطبيق</h3><ul><li>تطبيق المحاسب هو تطبيق لإدارة الديون، البضاعة، المبيعات، التقارير، والموظفين لأصحاب المحلات والتجار.</li><li>يهدف التطبيق لتسهيل إدارة العمل اليومي وربط البيانات بين الأجهزة بطريقة آمنة ومنظمة.</li></ul></section>
-        <section class="sec"><h3>2) حقوق الملكية والأفكار</h3><ul><li>جميع حقوق التطبيق، الاسم، التصميم، الفكرة، طريقة العمل، الشاشات، الأكواد، الأنظمة، التحليلات، والمميزات مملوكة لصاحب التطبيق/الجهة المطورة.</li><li>يمنع نسخ أو إعادة إنتاج أو تقليد أو بيع أو تعديل أو استخدام أي جزء من التطبيق أو فكرته دون إذن خطي مسبق.</li><li>استخدام التطبيق لا يمنح المستخدم أي حق ملكية في التطبيق أو علامته أو أفكاره أو تقنياته.</li></ul></section>
-        <section class="sec"><h3>3) البيانات التي نجمعها</h3><ul><li>بيانات الحساب: الاسم، اسم المحل، الهاتف، العنوان، رمز الدخول.</li><li>بيانات العمل: الزبائن، الديون، المنتجات، الباركود، المبيعات، الموظفين، الصلاحيات، التقارير، السجلات.</li></ul></section>
-        <section class="sec"><h3>4) كيف نستخدم البيانات</h3><ul><li>تشغيل التطبيق.</li><li>إدارة الديون والبضاعة والمبيعات.</li><li>إنشاء التقارير.</li><li>مزامنة البيانات بين الأجهزة.</li><li>حماية الحساب وإدارة الصلاحيات.</li></ul></section>
-        <section class="sec"><h3>5) التخزين والمزامنة</h3><ul><li>يتم تخزين بعض البيانات محليًا على الجهاز.</li><li>قد تتم مزامنة البيانات مع الخادم لتمكين الاستخدام على أكثر من جهاز والنسخ الاحتياطي.</li></ul></section>
-        <section class="sec"><h3>6) الكاميرا والباركود</h3><ul><li>يستخدم التطبيق الكاميرا فقط لمسح الباركود.</li><li>لا يتم استخدام الكاميرا للتسجيل أو المراقبة.</li><li>يمكن للمستخدم إدخال الباركود يدويًا أو اختياره من صورة إذا كانت الميزة متاحة.</li></ul></section>
-        <section class="sec"><h3>7) الصور</h3><ul><li>إذا اختار المستخدم صورة لقراءة الباركود، يتم استخدامها فقط لاستخراج الباركود.</li><li>لا يتم رفع الصور أو استخدامها لغرض آخر إلا إذا تم توضيح ذلك داخل التطبيق.</li></ul></section>
-        <section class="sec"><h3>8) مشاركة البيانات</h3><ul><li>لا نبيع بيانات المستخدمين.</li><li>لا نشارك بيانات المتاجر أو الزبائن مع جهات خارجية إلا عند الحاجة لتشغيل الخدمة أو الالتزام بالقانون.</li></ul></section>
-        <section class="sec"><h3>9) الأمان</h3><ul><li>يستخدم التطبيق وسائل حماية مثل رمز الدخول، صلاحيات الموظفين، والمزامنة الآمنة.</li><li>نبذل جهدًا معقولًا لحماية البيانات من الوصول غير المصرح.</li></ul></section>
-        <section class="sec"><h3>10) حذف الحساب والبيانات</h3><ul><li>يمكن للمستخدم طلب حذف حسابه وبياناته من خلال التواصل معنا.</li><li>قد يتم الاحتفاظ ببعض البيانات لفترة محدودة لأغراض النسخ الاحتياطي أو الالتزام القانوني.</li></ul></section>
-        <section class="sec"><h3>11) الأطفال</h3><p>التطبيق مخصص للتجار وأصحاب المحلات، وليس موجهًا للأطفال.</p></section>
-        <section class="sec"><h3>12) تحديث سياسة الخصوصية</h3><ul><li>قد نقوم بتحديث هذه السياسة عند إضافة مميزات أو تغيير طريقة التعامل مع البيانات.</li><li>سيتم توضيح تاريخ آخر تحديث.</li></ul></section>
-        <section class="sec"><h3>13) التواصل</h3><p>لأي استفسار أو طلب حذف بيانات:</p><a class="contact" href="mailto:omarsskaik@gmail.com">omarsskaik@gmail.com</a></section>
-      </article>
-      <article id="en" hidden><span class="date">Last updated: July 3, 2026</span>
-        <section class="sec"><h3>1) About the App</h3><ul><li>Al-Mohaseb is an application for managing debts, inventory, sales, reports, and employees for shop owners and merchants.</li><li>The app aims to make daily business management easier and to connect data between devices in a secure and organized way.</li></ul></section>
-        <section class="sec"><h3>2) Ownership Rights and Ideas</h3><ul><li>All rights to the app, name, design, idea, workflow, screens, code, systems, analytics, and features are owned by the app owner/developing party.</li><li>Copying, reproducing, imitating, selling, modifying, or using any part of the app or its idea is prohibited without prior written permission.</li><li>Using the app does not grant the user any ownership rights in the app, its brand, ideas, or technologies.</li></ul></section>
-        <section class="sec"><h3>3) Data We Collect</h3><ul><li>Account data: name, shop name, phone number, address, and access code.</li><li>Business data: customers, debts, products, barcodes, sales, employees, permissions, reports, and records.</li></ul></section>
-        <section class="sec"><h3>4) How We Use Data</h3><ul><li>Operating the app.</li><li>Managing debts, inventory, and sales.</li><li>Creating reports.</li><li>Synchronizing data between devices.</li><li>Protecting the account and managing permissions.</li></ul></section>
-        <section class="sec"><h3>5) Storage and Synchronization</h3><ul><li>Some data is stored locally on the device.</li><li>Data may be synchronized with the server to enable use on more than one device and to support backup.</li></ul></section>
-        <section class="sec"><h3>6) Camera and Barcodes</h3><ul><li>The app uses the camera only to scan barcodes.</li><li>The camera is not used for recording or monitoring.</li><li>The user can enter the barcode manually or choose it from an image if the feature is available.</li></ul></section>
-        <section class="sec"><h3>7) Images</h3><ul><li>If the user selects an image to read a barcode, it is used only to extract the barcode.</li><li>Images are not uploaded or used for any other purpose unless this is clearly explained inside the app.</li></ul></section>
-        <section class="sec"><h3>8) Data Sharing</h3><ul><li>We do not sell user data.</li><li>We do not share store or customer data with external parties except when needed to operate the service or comply with the law.</li></ul></section>
-        <section class="sec"><h3>9) Security</h3><ul><li>The app uses protection measures such as an access code, employee permissions, and secure synchronization.</li><li>We make reasonable efforts to protect data from unauthorized access.</li></ul></section>
-        <section class="sec"><h3>10) Account and Data Deletion</h3><ul><li>The user can request deletion of their account and data by contacting us.</li><li>Some data may be kept for a limited period for backup or legal compliance purposes.</li></ul></section>
-        <section class="sec"><h3>11) Children</h3><p>The app is intended for merchants and shop owners and is not directed to children.</p></section>
-        <section class="sec"><h3>12) Privacy Policy Updates</h3><ul><li>We may update this policy when adding features or changing how data is handled.</li><li>The latest update date will be shown.</li></ul></section>
-        <section class="sec"><h3>13) Contact</h3><p>For any question or data deletion request:</p><a class="contact" href="mailto:omarsskaik@gmail.com">omarsskaik@gmail.com</a></section>
-      </article>
-    </div></section><p class="foot" data-i18n="footer">المحاسب - إدارة عملك اليومي بطريقة منظمة وآمنة.</p>
+    <header>
+      <p class="brand">المحاسب</p>
+      <h1>سياسة الخصوصية لتطبيق المحاسب</h1>
+      <p class="intro">توضح هذه السياسة كيفية جمع البيانات واستخدامها وتخزينها ومزامنتها وحمايتها داخل تطبيق المحاسب، وكيف نتعامل مع بيانات المتاجر والموظفين والزبائن ومستخدمي PalMe المرتبطين بالمنظومة، إضافة إلى حقوق المستخدم وخيارات حذف الحساب والبيانات.</p>
+      <span class="updated">آخر تحديث: يوليو 2026</span>
+    </header>
+
+    <article aria-label="محتوى سياسة الخصوصية">
+      <section>
+        <h2>1) مقدمة</h2>
+        <p>تحترم منظومة المحاسب خصوصية مستخدميها وتهدف إلى التعامل مع البيانات بطريقة واضحة وآمنة ومتناسبة مع الوظائف التي يقدمها التطبيق.</p>
+        <p>توضح هذه السياسة أنواع البيانات التي قد يتم جمعها أو تخزينها أو معالجتها عند استخدام تطبيق المحاسب، والأغراض التي تستخدم من أجلها، وكيفية تخزينها ومزامنتها، والجهات التي قد تتمكن من الوصول إليها ضمن حدود تشغيل الخدمة، إضافة إلى توضيح العلاقة بين بيانات التاجر وبيانات متجره ومستخدمي PalMe المرتبطين به.</p>
+        <p>باستخدام التطبيق، يقر المستخدم بأنه اطلع على هذه السياسة ويفهم أن بعض البيانات ضرورية لتشغيل الحساب والمزامنة وحفظ السجلات وتنفيذ الوظائف الأساسية للتطبيق.</p>
+      </section>
+
+      <section>
+        <h2>2) عن تطبيق المحاسب</h2>
+        <p>المحاسب هو تطبيق مخصص لأصحاب المحلات والتجار والمنشآت لإدارة أعمالهم اليومية، ويشمل ذلك بحسب المزايا المتاحة:</p>
+        <ul>
+          <li>إدارة الزبائن.</li>
+          <li>تسجيل الديون ومتابعة حالة السداد.</li>
+          <li>إدارة المنتجات والمخزون.</li>
+          <li>تسجيل المبيعات والفواتير.</li>
+          <li>إدارة الموظفين والصلاحيات.</li>
+          <li>إنشاء التقارير والتحليلات.</li>
+          <li>حفظ سجل للعمليات والتعديلات.</li>
+          <li>مزامنة البيانات بين الأجهزة.</li>
+          <li>إنشاء وإدارة صفحة متجر عامة مرتبطة بمنظومة PalMe.</li>
+          <li>ربط زبائن PalMe بالمتجر وفق آليات النظام.</li>
+          <li>إرسال الإشعارات المتعلقة ببعض المعاملات.</li>
+          <li>إدارة العروض والمنتجات التي يختار التاجر نشرها للعامة.</li>
+        </ul>
+        <p>قد تتغير بعض الوظائف أو تضاف وظائف جديدة مع تطوير الخدمة، وسيتم تحديث هذه السياسة عندما يؤدي ذلك إلى تغيير جوهري في طريقة التعامل مع البيانات.</p>
+      </section>
+
+      <section>
+        <h2>3) البيانات التي قد نعالجها</h2>
+        <p>يعالج التطبيق البيانات اللازمة لتقديم الخدمة وتشغيلها، وقد تشمل:</p>
+
+        <p><strong>بيانات الحساب والمنشأة</strong></p>
+        <ul>
+          <li>اسم صاحب الحساب.</li>
+          <li>اسم المتجر أو المنشأة.</li>
+          <li>رقم الهاتف.</li>
+          <li>العنوان أو المدينة.</li>
+          <li>بيانات الدخول والتحقق.</li>
+          <li>معلومات الحساب وحالته.</li>
+          <li>بيانات الأجهزة والجلسات المرتبطة بالحساب عند الحاجة للأمان.</li>
+          <li>معلومات الاشتراك أو حالة الخدمة عند وجودها.</li>
+        </ul>
+
+        <p><strong>بيانات الموظفين</strong></p>
+        <p>عندما يضيف صاحب الحساب موظفين، قد تتم معالجة:</p>
+        <ul>
+          <li>اسم الموظف.</li>
+          <li>بيانات أو رمز الدخول الخاص به.</li>
+          <li>الدور الوظيفي.</li>
+          <li>الصلاحيات الممنوحة له.</li>
+          <li>سجل بعض العمليات التي نفذها داخل النظام.</li>
+        </ul>
+        <p>يتحمل صاحب الحساب مسؤولية منح الصلاحيات المناسبة لموظفيه ومراجعتها وإلغائها عند انتهاء الحاجة إليها.</p>
+
+        <p><strong>بيانات العمل</strong></p>
+        <p>قد تشمل:</p>
+        <ul>
+          <li>أسماء الزبائن وبيانات التواصل المدخلة من قبل التاجر.</li>
+          <li>الديون والمبالغ المستحقة.</li>
+          <li>الدفعات وحالة السداد.</li>
+          <li>المبيعات.</li>
+          <li>الفواتير.</li>
+          <li>المنتجات.</li>
+          <li>الكميات.</li>
+          <li>الأسعار.</li>
+          <li>الباركود.</li>
+          <li>الملاحظات المرتبطة بسجلات العمل.</li>
+          <li>سجلات التعديلات والعمليات.</li>
+          <li>بيانات التقارير والتحليلات الناتجة عن بيانات العمل.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>4) الغرض من استخدام البيانات</h2>
+        <p>تستخدم البيانات للأغراض المرتبطة بتشغيل الخدمة، ومنها:</p>
+        <ul>
+          <li>إنشاء الحساب وتشغيله.</li>
+          <li>التحقق من صلاحية الوصول.</li>
+          <li>إدارة بيانات المتجر والعمل.</li>
+          <li>حفظ الديون والمبيعات والفواتير والمنتجات.</li>
+          <li>تنفيذ المزامنة بين الأجهزة.</li>
+          <li>استعادة البيانات المعتمدة عند الحاجة.</li>
+          <li>عرض البيانات بشكل صحيح عند العمل دون اتصال.</li>
+          <li>إدارة الموظفين والصلاحيات.</li>
+          <li>إرسال التنبيهات والإشعارات.</li>
+          <li>ربط معاملات محددة بمستخدمي PalMe عند استخدام هذه الميزة.</li>
+          <li>إنشاء التقارير والملخصات والتحليلات.</li>
+          <li>اكتشاف الأخطاء التقنية ومعالجتها.</li>
+          <li>حماية الحساب ومنع إساءة الاستخدام أو الوصول غير المصرح به.</li>
+          <li>تقديم الدعم الفني.</li>
+          <li>التحقيق في المشكلات أو الشكاوى المتعلقة باستخدام النظام.</li>
+          <li>الالتزام بالمتطلبات القانونية عند وجود طلب ملزم وصحيح من جهة مختصة.</li>
+        </ul>
+        <p>لا يتم استخدام البيانات لأغراض لا تتوافق بصورة معقولة مع طبيعة الخدمة دون توضيح ذلك للمستخدم عند الحاجة.</p>
+      </section>
+
+      <section>
+        <h2>5) التخزين المحلي والمصدر المركزي للبيانات</h2>
+        <p>يعتمد تطبيق المحاسب على بنية تسمح بتخزين جزء من البيانات محليًا على جهاز المستخدم لتمكين السرعة والعمل عند ضعف الاتصال أو انقطاعه.</p>
+        <p>وقد يحتفظ التطبيق بنسخة محلية من البيانات اللازمة للاستخدام اليومي.</p>
+        <p>عند توفر الاتصال، تتم مزامنة البيانات مع أنظمة الخادم.</p>
+        <p>تعتبر البيانات التي قبلها وحفظها النظام المركزي هي المرجع التقني المعتمد للبيانات المتزامنة داخل المنظومة، بينما تعمل النسخة المحلية على الجهاز كنسخة تشغيلية تساعد على الاستمرار في استخدام التطبيق عند ضعف الاتصال.</p>
+        <p>قد توجد عمليات محلية تنتظر الإرسال أو المزامنة، ولا تعتبر نهائية على الخادم إلا بعد قبولها وفق آليات النظام.</p>
+      </section>
+
+      <section>
+        <h2>6) العمل دون اتصال والمزامنة</h2>
+        <p>يمكن لبعض وظائف التطبيق العمل عند عدم توفر الإنترنت باستخدام البيانات المحفوظة محليًا.</p>
+        <p>عند عودة الاتصال، قد يقوم التطبيق بمزامنة التغييرات تلقائيًا.</p>
+        <p>قد يحدث تأخير مؤقت بين تنفيذ العملية على جهاز وبين ظهورها على جهاز آخر بسبب:</p>
+        <ul>
+          <li>انقطاع الاتصال.</li>
+          <li>ضعف الشبكة.</li>
+          <li>تأخر المزامنة.</li>
+          <li>إغلاق التطبيق قبل اكتمال العملية.</li>
+          <li>أعمال الصيانة أو أعطال البنية التحتية.</li>
+        </ul>
+        <p>تعمل المنظومة على معالجة هذه الحالات وفق آليات المزامنة المعتمدة، ولا يعتمد النظام على وجود اتصال دائم لإظهار البيانات التي سبق حفظها محليًا.</p>
+      </section>
+
+      <section>
+        <h2>7) صفحة المتجر العامة Store Profile</h2>
+        <p>يمكن لصاحب الحساب إنشاء صفحة متجر مرتبطة بحسابه.</p>
+        <p>عند اختيار نشر المتجر للعامة، قد تظهر معلومات محددة لمستخدمي PalMe أو في واجهات السوق العامة، مثل:</p>
+        <ul>
+          <li>اسم المتجر.</li>
+          <li>اسم العرض التجاري.</li>
+          <li>المدينة أو المنطقة.</li>
+          <li>العنوان.</li>
+          <li>رقم التواصل التجاري.</li>
+          <li>وصف المتجر.</li>
+          <li>بعض المنتجات المنشورة.</li>
+          <li>الأسعار التي يسمح النظام بعرضها.</li>
+          <li>العروض.</li>
+          <li>التقييمات.</li>
+          <li>عدد المتابعين أو مؤشرات عامة مشابهة.</li>
+        </ul>
+        <p>لا يتم تلقائيًا اعتبار جميع بيانات حساب التاجر بيانات عامة.</p>
+        <p>يتم الفصل بين بيانات الحساب الداخلية المستخدمة لإدارة النظام، وبيانات صفحة المتجر العامة التي اختار صاحب المتجر نشرها أو التي يحدد النظام بوضوح أنها جزء من الملف التجاري العام.</p>
+        <p>قد يتم إخفاء صفحة المتجر من السوق العام عند تغيير حالة النشر، إلا أن إخفاء الصفحة لا يعني بالضرورة حذف السجلات المالية أو العلاقات التاريخية التي نشأت سابقًا.</p>
+      </section>
+
+      <section>
+        <h2>8) العلاقة مع مستخدمي PalMe</h2>
+        <p>يمكن للتاجر استخدام منظومة المحاسب للتعامل مع مستخدمين لديهم حسابات PalMe.</p>
+        <p>يمكن لمستخدم PalMe مشاركة كود PalMe أو رمز QR الخاص به مع التاجر.</p>
+        <p>عند استخدام الكود، يمكن للنظام عرض البيانات العامة المحددة للتعريف بالمستخدم ومساعدة التاجر على التأكد من أنه يتعامل مع الشخص الصحيح.</p>
+        <p>لا يتضمن كود PalMe أو رمز QR كلمة مرور المستخدم أو رمز PIN أو بيانات جلسة الدخول أو الوثائق الخاصة بالهوية.</p>
+        <p>عملية البحث عن مستخدم PalMe لا تنشئ وحدها علاقة مالية أو دينًا.</p>
+        <p>يتم إنشاء العلاقة بين المتجر ومستخدم PalMe من خلال الإجراءات المعتمدة داخل النظام، ويشترط لذلك وجود صفحة متجر فعالة وفق قواعد الخدمة.</p>
+      </section>
+
+      <section>
+        <h2>9) بيانات زبائن PalMe المرتبطين بالمتجر</h2>
+        <p>عند ربط مستخدم PalMe بمتجر، قد يقوم النظام بمعالجة البيانات اللازمة لربط المعاملات بالطرف الصحيح، ومنها:</p>
+        <ul>
+          <li>معرف حساب PalMe.</li>
+          <li>معرف المتجر.</li>
+          <li>العلاقة بين المستخدم والمتجر.</li>
+          <li>الديون المرتبطة بالمستخدم.</li>
+          <li>المبيعات أو المشتريات المرتبطة به.</li>
+          <li>الفواتير.</li>
+          <li>حالة السداد.</li>
+          <li>التواريخ المرتبطة بالمعاملة.</li>
+          <li>الإشعارات المتعلقة بالمعاملة.</li>
+        </ul>
+        <p>يقتصر وصول التاجر إلى بيانات مستخدمي PalMe على البيانات والوظائف التي تسمح بها المنظومة وفق العلاقة القائمة بينهما.</p>
+        <p>لا تمنح عملية الربط التاجر وصولًا غير محدود إلى حساب PalMe أو إلى بيانات الدخول الخاصة بالمستخدم.</p>
+      </section>
+
+      <section>
+        <h2>10) السجلات المالية المرتبطة بمستخدمي PalMe</h2>
+        <p>عندما يتم إنشاء دين أو عملية بيع مرتبطة بمستخدم PalMe، قد تظهر المعاملة أيضًا في حساب ذلك المستخدم وفق منطق المنظومة.</p>
+        <p>قد تحتفظ المنظومة بسجل تاريخي للمعاملات المالية المكتملة أو المسددة حتى بعد إغلاق المتجر أو انتهاء العلاقة التشغيلية، وذلك بهدف المحافظة على تاريخ المعاملة ومنع اختفاء سجل مالي سبق أن ظهر للطرف المرتبط به.</p>
+        <p>قد يشمل السجل التاريخي:</p>
+        <ul>
+          <li>اسم المتجر وقت المعاملة.</li>
+          <li>معرف المتجر.</li>
+          <li>المدينة.</li>
+          <li>العنوان.</li>
+          <li>رقم الهاتف التجاري.</li>
+          <li>قيمة المعاملة.</li>
+          <li>تفاصيل الأصناف عند توفرها.</li>
+          <li>حالة المعاملة.</li>
+          <li>تاريخ الإنشاء.</li>
+          <li>تاريخ السداد أو الإكمال.</li>
+        </ul>
+        <p>لا يتم استخدام هذه السجلات التاريخية لإنشاء متجر عام جديد أو لإظهار متجر مغلق على أنه ما زال نشطًا.</p>
+      </section>
+
+      <section>
+        <h2>11) الكاميرا والباركود ورموز QR</h2>
+        <p>قد يستخدم التطبيق الكاميرا أو وظائف النظام المرتبطة بها عند استخدام ميزات مثل:</p>
+        <ul>
+          <li>مسح باركود المنتجات.</li>
+          <li>مسح رموز QR المرتبطة بوظائف مدعومة.</li>
+        </ul>
+        <p>لا تستخدم الكاميرا للمراقبة أو التسجيل المستمر.</p>
+        <p>عند اختيار صورة من الجهاز لاستخراج باركود أو رمز، يتم استخدام الصورة للغرض الذي اختاره المستخدم.</p>
+        <p>لا يتم استخدام الصور لأغراض أخرى إلا إذا تم توضيح ذلك للمستخدم وكانت الوظيفة تتطلب ذلك.</p>
+      </section>
+
+      <section>
+        <h2>12) معلومات الجهاز والاتصال</h2>
+        <p>قد يعالج التطبيق معلومات تقنية ضرورية لتشغيل الخدمة، مثل:</p>
+        <ul>
+          <li>حالة الاتصال بالشبكة.</li>
+          <li>نوع النظام أو إصدار التطبيق.</li>
+          <li>معرفات تقنية مرتبطة بالجلسة أو الجهاز عند الحاجة للأمان.</li>
+          <li>معلومات تساعد في اكتشاف الأخطاء.</li>
+          <li>سجلات الأداء والمزامنة.</li>
+        </ul>
+        <p>يتم استخدام هذه المعلومات لتحسين الاستقرار، وإدارة الجلسات، واكتشاف المشكلات، ومنع إساءة الاستخدام.</p>
+        <p>ولا تهدف هذه البيانات إلى مراقبة نشاط المستخدم خارج نطاق الخدمة.</p>
+      </section>
+
+      <section>
+        <h2>13) البصمة ووسائل المصادقة البيومترية</h2>
+        <p>عند استخدام ميزة تسجيل الدخول بالبصمة أو وسائل المصادقة التي يوفرها الجهاز، تعتمد عملية التحقق على نظام التشغيل والخدمات الأمنية الموجودة على جهاز المستخدم.</p>
+        <p>لا يحتاج التطبيق إلى تخزين نسخة من بصمة المستخدم أو بياناته البيومترية الخام على خوادم الخدمة.</p>
+      </section>
+
+      <section>
+        <h2>14) الإشعارات</h2>
+        <p>قد يستخدم التطبيق الإشعارات لإبلاغ المستخدم بأحداث مهمة، مثل:</p>
+        <ul>
+          <li>حالة المزامنة.</li>
+          <li>بعض العمليات المرتبطة بالحساب.</li>
+          <li>تنبيهات النظام.</li>
+          <li>إشعارات المخزون.</li>
+          <li>إشعارات مرتبطة بميزات PalMe عند استخدامها.</li>
+          <li>رسائل إدارية أو تشغيلية.</li>
+        </ul>
+        <p>يمكن أن يتأثر وصول الإشعارات بإعدادات الجهاز أو نظام التشغيل أو الاتصال.</p>
+      </section>
+
+      <section>
+        <h2>15) السجلات التقنية وسجل النشاط</h2>
+        <p>قد تحتفظ المنظومة بسجلات تقنية وسجلات نشاط مرتبطة ببعض العمليات المهمة، مثل:</p>
+        <ul>
+          <li>إنشاء أو تعديل أو حذف سجل.</li>
+          <li>تنفيذ عملية مزامنة.</li>
+          <li>استخدام بعض وظائف الإدارة.</li>
+          <li>تسجيل الدخول أو محاولات الدخول ذات الأهمية الأمنية.</li>
+          <li>العمليات التي ينفذها الموظفون وفق صلاحياتهم.</li>
+        </ul>
+        <p>تستخدم هذه السجلات لأغراض الأمان، والتدقيق، وحل المشكلات، ومعالجة النزاعات المتعلقة باستخدام النظام.</p>
+      </section>
+
+      <section>
+        <h2>16) الوصول الإداري إلى البيانات</h2>
+        <p>قد يحتاج الأشخاص المخولون بإدارة وتشغيل الخدمة إلى الوصول إلى بيانات محددة عند الضرورة، مثل:</p>
+        <ul>
+          <li>تقديم الدعم الفني.</li>
+          <li>معالجة مشكلة أبلغ عنها المستخدم.</li>
+          <li>التحقق من خلل في البيانات.</li>
+          <li>التحقيق في إساءة استخدام.</li>
+          <li>معالجة مشكلة أمنية.</li>
+          <li>تنفيذ عملية استعادة أو صيانة.</li>
+          <li>التعامل مع شكوى أو نزاع.</li>
+          <li>تنفيذ التزام قانوني صحيح.</li>
+        </ul>
+        <p>لا يعني ذلك أن جميع العاملين أو الأشخاص لديهم وصول مفتوح وغير مقيد إلى جميع البيانات.</p>
+        <p>يجب أن يكون الوصول وفق الصلاحيات والحاجة التشغيلية، ويمكن تسجيل العمليات الإدارية الحساسة لأغراض التدقيق والأمان.</p>
+      </section>
+
+      <section>
+        <h2>17) مزودو الخدمات والبنية التحتية</h2>
+        <p>قد تعتمد الخدمة على مزودي بنية تحتية وتقنيات خارجية لتقديم وظائفها، مثل:</p>
+        <ul>
+          <li>استضافة قواعد البيانات والخوادم.</li>
+          <li>التخزين.</li>
+          <li>خدمات مراقبة الأخطاء والأداء.</li>
+          <li>خدمات إرسال الإشعارات.</li>
+          <li>خدمات النسخ الاحتياطي.</li>
+        </ul>
+        <p>قد تتم معالجة البيانات من خلال هذه الخدمات بالقدر اللازم لتقديم الوظيفة المطلوبة.</p>
+        <p>لا نبيع بيانات المستخدمين الشخصية أو بيانات أعمالهم لأطراف ثالثة لأغراض تسويقية.</p>
+      </section>
+
+      <section>
+        <h2>18) مشاركة البيانات</h2>
+        <p>لا نقوم ببيع بيانات المستخدمين.</p>
+        <p>قد تتم مشاركة أو إتاحة بيانات محددة فقط في الحالات اللازمة، ومنها:</p>
+        <ul>
+          <li>عندما يختار صاحب المتجر نشر بيانات صفحة متجره للعامة.</li>
+          <li>عندما تكون البيانات جزءًا من معاملة مرتبطة بمستخدم PalMe وفق وظائف النظام.</li>
+          <li>مع مزودي الخدمات التقنيين اللازمين لتشغيل المنظومة.</li>
+          <li>مع الأشخاص المخولين بالدعم أو الإدارة ضمن الصلاحيات.</li>
+          <li>عند وجود التزام قانوني أو أمر صحيح من جهة مختصة.</li>
+        </ul>
+        <p>نحرص على ألا تتجاوز البيانات المتاحة الغرض الذي تمت مشاركتها أو معالجتها من أجله.</p>
+      </section>
+
+      <section>
+        <h2>19) حماية البيانات</h2>
+        <p>نستخدم مجموعة من الإجراءات التقنية والتنظيمية للمساعدة في حماية البيانات، ومنها بحسب طبيعة النظام:</p>
+        <ul>
+          <li>التحكم بالصلاحيات.</li>
+          <li>فصل أدوار المستخدمين والموظفين.</li>
+          <li>حماية جلسات الدخول.</li>
+          <li>تقييد الوصول إلى البيانات.</li>
+          <li>سياسات قواعد البيانات.</li>
+          <li>المزامنة عبر اتصالات محمية.</li>
+          <li>سجلات التدقيق.</li>
+          <li>النسخ الاحتياطية.</li>
+          <li>آليات الحد من إساءة الاستخدام ومحاولات الدخول المتكررة.</li>
+        </ul>
+        <p>ومع ذلك، لا توجد منظومة تقنية يمكن ضمان حمايتها بشكل مطلق من جميع المخاطر.</p>
+        <p>يتحمل المستخدم مسؤولية حماية جهازه ورموز الدخول وعدم مشاركتها مع أشخاص غير مخولين.</p>
+      </section>
+
+      <section>
+        <h2>20) النسخ الاحتياطية والاستعادة</h2>
+        <p>قد يتم إنشاء نسخ احتياطية من البيانات لأغراض:</p>
+        <ul>
+          <li>استعادة البيانات بعد الأعطال.</li>
+          <li>حماية استمرارية الخدمة.</li>
+          <li>معالجة حالات فقدان البيانات أو تلفها.</li>
+        </ul>
+        <p>قد تستمر بعض البيانات داخل النسخ الاحتياطية لفترة بعد حذفها من قاعدة البيانات النشطة إلى أن تنتهي دورة الاحتفاظ بالنسخة أو يتم استبدالها وفق نظام النسخ الاحتياطي.</p>
+        <p>لا تستخدم النسخ الاحتياطية كبديل عن قاعدة البيانات التشغيلية اليومية.</p>
+      </section>
+
+      <section>
+        <h2>21) حذف الحساب والبيانات</h2>
+        <p>يمكن لصاحب الحساب طلب حذف حسابه من خلال الوسائل المتاحة داخل التطبيق أو قنوات التواصل الرسمية المخصصة لذلك.</p>
+        <p>عند تنفيذ طلب حذف صالح، تتم معالجة البيانات المرتبطة بالحساب وفق طبيعة كل نوع من البيانات.</p>
+        <p>قد يتم حذف:</p>
+        <ul>
+          <li>بيانات الحساب التشغيلية.</li>
+          <li>بيانات المتجر النشطة.</li>
+          <li>جلسات الدخول.</li>
+          <li>البيانات التشغيلية التي لم يعد هناك سبب مشروع للاحتفاظ بها.</li>
+        </ul>
+        <p>وقد يستمر الاحتفاظ ببعض البيانات عندما يكون ذلك ضروريًا لأسباب مشروعة، مثل:</p>
+        <ul>
+          <li>الأمان ومنع الاحتيال.</li>
+          <li>سجلات التدقيق الضرورية.</li>
+          <li>حماية حقوق الأطراف في معاملات سابقة.</li>
+          <li>الاحتفاظ بسجل مالي تاريخي سبق أن ارتبط بمستخدم PalMe.</li>
+          <li>الالتزامات القانونية والتنظيمية.</li>
+          <li>النسخ الاحتياطية إلى حين انتهاء دورة الاحتفاظ بها.</li>
+        </ul>
+        <p>سيتم التفريق بين إغلاق الحساب أو تعطيله وبين طلب حذف الحساب والبيانات.</p>
+        <p>وبما أن Google Play تشترط على التطبيقات التي تسمح بإنشاء الحسابات توفير طريقة لطلب حذف الحساب من داخل التطبيق ومن خلال مورد ويب خارجي، يجب أن يتطابق مسار الحذف الفعلي المتاح في التطبيق والموقع مع ما هو موضح هنا، مع الإفصاح بوضوح عن أي بيانات تحتفظ بها لأسباب مشروعة.</p>
+      </section>
+
+      <section>
+        <h2>22) إغلاق أو حذف صفحة المتجر</h2>
+        <p>إغلاق صفحة متجر أو إزالتها من العرض العام لا يعني بالضرورة حذف جميع البيانات التي نشأت أثناء استخدام المتجر للمنظومة.</p>
+        <p>قد يتم:</p>
+        <ul>
+          <li>إزالة المتجر من العرض العام.</li>
+          <li>إنهاء العلاقات التشغيلية النشطة وفق قواعد النظام.</li>
+          <li>حذف أو أرشفة بعض البيانات التشغيلية.</li>
+        </ul>
+        <p>وفي المقابل، قد تستمر بعض السجلات المالية التاريخية المرتبطة بمستخدمي PalMe إذا كان الاحتفاظ بها ضروريًا للحفاظ على تاريخ المعاملة.</p>
+        <p>ولا يتم استخدام بيانات متجر مغلق على أنها بيانات متجر جديد يتم إنشاؤه لاحقًا.</p>
+      </section>
+
+      <section>
+        <h2>23) دقة البيانات ومسؤولية المستخدم</h2>
+        <p>صاحب الحساب مسؤول عن صحة البيانات التي يدخلها إلى التطبيق وعن مشروعية استخدامه للبيانات التي يحتفظ بها عن زبائنه وموظفيه.</p>
+        <p>يجب على المستخدم:</p>
+        <ul>
+          <li>إدخال بيانات صحيحة.</li>
+          <li>عدم استخدام بيانات الأشخاص لأغراض غير مشروعة.</li>
+          <li>عدم مشاركة الحساب مع أشخاص غير مخولين.</li>
+          <li>ضبط صلاحيات الموظفين بصورة مناسبة.</li>
+          <li>تحديث البيانات عند الحاجة.</li>
+          <li>الإبلاغ عن أي وصول غير مصرح به أو مشكلة أمنية فور اكتشافها.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>24) البيانات المتعلقة بالأطفال</h2>
+        <p>تطبيق المحاسب مخصص بصورة أساسية للتجار وأصحاب المحلات والمنشآت والعاملين المخولين لديهم، وليس موجهًا كخدمة للأطفال.</p>
+      </section>
+
+      <section>
+        <h2>25) التعديلات على سياسة الخصوصية</h2>
+        <p>قد يتم تحديث هذه السياسة عند:</p>
+        <ul>
+          <li>إضافة ميزات جديدة.</li>
+          <li>تغيير طريقة معالجة البيانات.</li>
+          <li>إضافة تكاملات جديدة.</li>
+          <li>تغيير المتطلبات القانونية أو التنظيمية.</li>
+          <li>تحديث البنية التقنية للخدمة.</li>
+        </ul>
+        <p>سيتم تحديث تاريخ آخر تعديل عند نشر نسخة جديدة.</p>
+        <p>وقد يتم إشعار المستخدمين داخل التطبيق إذا كان التغيير جوهريًا.</p>
+      </section>
+
+      <section>
+        <h2>26) حقوق الملكية</h2>
+        <p>جميع حقوق التطبيق والبرمجيات والتصميم والواجهات والعلامات والمواد الخاصة بالخدمة محفوظة لأصحابها.</p>
+        <p>ولا تمنح سياسة الخصوصية أو استخدام التطبيق المستخدم حقًا في نسخ البرنامج أو إعادة توزيعه أو استغلال مكوناته بصورة غير مصرح بها.</p>
+        <p>تفاصيل الشروط المتعلقة بالملكية الفكرية واستخدام الخدمة ترد في صفحة الشروط والأحكام.</p>
+      </section>
+
+      <section>
+        <h2>27) التواصل</h2>
+        <p>للاستفسارات المتعلقة بالخصوصية أو البيانات أو طلبات الحذف أو الأمان، يمكن التواصل عبر:</p>
+        <p class="contact-block">البريد الإلكتروني:<br>
+          <a href="mailto:omarsskaik@gmail.com">omarsskaik@gmail.com</a>
+        </p>
+        <p>يرجى تقديم معلومات كافية للتحقق من صاحب الطلب قبل تنفيذ العمليات الحساسة المتعلقة بالحساب أو البيانات.</p>
+      </section>
+    </article>
+
+    <footer>
+      المحاسب — سياسة الخصوصية
+    </footer>
   </main>
-  <script>
-    const t={ar:{brand:"المحاسب",subtitle:"سياسة الخصوصية وحقوق الاستخدام",title:"سياسة الخصوصية لتطبيق المحاسب",intro:"نوضح هنا بشكل مباشر وبسيط كيف يتعامل تطبيق المحاسب مع بياناتك، وما هي حقوق الملكية الخاصة بالتطبيق، وكيف يمكنك التواصل معنا.",footer:"المحاسب - إدارة عملك اليومي بطريقة منظمة وآمنة.",doc:"سياسة الخصوصية - المحاسب"},en:{brand:"Al-Mohaseb",subtitle:"Privacy Policy and Usage Rights",title:"Privacy Policy for Al-Mohaseb",intro:"This page explains, in a clear and simple way, how Al-Mohaseb handles your data, the ownership rights related to the app, and how to contact us.",footer:"Al-Mohaseb - organized and secure daily business management.",doc:"Privacy Policy - Al-Mohaseb"}};
-    const btns=document.querySelectorAll("[data-lang-button]"),arts={ar:document.getElementById("ar"),en:document.getElementById("en")};
-    function setLang(lang){const l=lang==="en"?"en":"ar",c=t[l];document.documentElement.lang=l;document.documentElement.dir=l==="ar"?"rtl":"ltr";document.body.dataset.lang=l;document.title=c.doc;document.querySelectorAll("[data-i18n]").forEach(n=>{const k=n.dataset.i18n;if(c[k])n.textContent=c[k]});arts.ar.hidden=l!=="ar";arts.en.hidden=l!=="en";btns.forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.langButton===l)));try{localStorage.setItem("al-mohaseb-privacy-language",l)}catch(e){}}
-    btns.forEach(b=>b.addEventListener("click",()=>setLang(b.dataset.langButton)));let saved="";try{saved=localStorage.getItem("al-mohaseb-privacy-language")||""}catch(e){}setLang(new URLSearchParams(location.search).get("lang")||saved||"ar");
-  </script>
 </body>
 </html>
